@@ -7,7 +7,7 @@
       <description>Isolated update acceptance test only. Recording is not qualified. Never distribute as the product.</description>
       <v:architecture xmlns:v="urn:vestige:windows:update:1">windows-x64</v:architecture>
       <v:minimumWindowsBuild xmlns:v="urn:vestige:windows:update:1">19045</v:minimumWindowsBuild>
-      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v9.2.1/Veyfir-Setup-9.2.1-Windows-x64.exe" length="5331341" type="application/octet-stream" sparkle:os="windows" sparkle:version="9.2.1" sparkle:edSignature="KOlqCwugal+C7hrh/qsfqUEYyJO32RR0wf37hjOT2pbeYac37UpjKeAoH0g+2w89fL1XOY+03HOYROwF+KHiBg==" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" />
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v9.2.2/Veyfir-Setup-9.2.2-Windows-x64.exe" length="5331350" type="application/octet-stream" sparkle:os="windows" sparkle:version="9.2.2" sparkle:edSignature="w1ovFwkDgtTuUf65Y8XAGk21uprLoheUthGNvbsM+uNAwfwRcD6V86xoRr2HwicUquxfBPuTbe9lA+ijdduHCA==" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" />
     </item>
   </channel>
 </rss>
