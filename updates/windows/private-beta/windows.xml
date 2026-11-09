@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss>
+  <channel>
+    <v:product xmlns:v="urn:vestige:windows:update:1">Veyfir.Windows</v:product>
+    <v:channel xmlns:v="urn:vestige:windows:update:1">private-beta</v:channel>
+    <item>
+      <description>Isolated update acceptance test only. Recording is not qualified. Never distribute as the product.</description>
+      <v:architecture xmlns:v="urn:vestige:windows:update:1">windows-x64</v:architecture>
+      <v:minimumWindowsBuild xmlns:v="urn:vestige:windows:update:1">19045</v:minimumWindowsBuild>
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v9.1.1/Veyfir-Setup-9.1.1-Windows-x64.exe" length="5331322" type="application/octet-stream" sparkle:os="windows" sparkle:version="9.1.1" sparkle:edSignature="CbXzgDvYBohXG2fIFqVdZDuPlyoar8mEA6P/OLs1vuS5yUs1zEbRjOf/PkNETP3/f6lT6a8uJOP7PPbDZDH0BA==" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" />
+    </item>
+  </channel>
+</rss>
