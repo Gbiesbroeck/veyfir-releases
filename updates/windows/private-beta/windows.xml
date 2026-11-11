@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:vestige="urn:vestige:windows:update:1">
+  <channel>
+    <title>Veyfir Windows</title>
+    <vestige:product>Veyfir.Windows</vestige:product>
+    <vestige:channel>private-beta</vestige:channel>
+    <item>
+      <description>Veyfir 0.4.5 for Windows
+
+Choose Automatic Game, a specific game or window, or an entire display on Capture. Display capture uses global settings and keeps its replay buffer active when games launch.
+
+Per-game settings now have tabs. Both settings pages share bitrate and replay sliders, and Simple and Advanced quality views keep the same saved profile.
+
+OBS offers a still or opt-in live preview of its current capture. Entire Display explains what may be included and can exclude the main Veyfir window when Windows Graphics Capture is available.
+
+Delete clip and unapplied-settings confirmations use the selected Veyfir theme.
+</description>
+      <vestige:architecture>windows-x64</vestige:architecture>
+      <vestige:minimumWindowsBuild>19045</vestige:minimumWindowsBuild>
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v0.4.5/Veyfir-Setup-0.4.5-Windows-x64.exe" length="24186853" type="application/octet-stream" sparkle:os="windows" sparkle:version="0.4.5" sparkle:edSignature="ZK5zcEnyYevUTLAb5ykmLLj/bIvnC+llTbJ+gVfEX570s2Jf5H1ieZ6rHelCryaUX2P8fxNn08yOvjqdmcAqAg==" />
+    </item>
+  </channel>
+</rss>
