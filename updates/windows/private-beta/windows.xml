@@ -5,6 +5,25 @@
     <vestige:product>Veyfir.Windows</vestige:product>
     <vestige:channel>private-beta</vestige:channel>
     <item>
+      <description>Veyfir 0.4.6 for Windows
+
+Capture groups the source, replay status and Save replay together. The existing OBS preview is beside the capture settings.
+
+General settings → Capture → Displays shows the Windows monitor arrangement. Identify matches the diagram, and the chosen recording display is shared with Capture. Veyfir asks before stopping active display capture to change targets.
+
+OBS replay saving waits for usable encoder progress and filters rapid duplicate shortcut presses. Veyfir reports success after validating the saved clip. It can try to restore the same source after a recorder fault and tells you if the previous replay buffer was lost.
+
+Audio stays pinned to the chosen Windows endpoints during capture. General settings → Advanced → Diagnostics shows recorder status and lets you review a report before saving it locally. The Library gives clearer guidance when it is empty or a search has no matches.
+
+For Windows 10 22H2 or Windows 11 x64 with .NET Framework 4.8 and Microsoft Visual C++ runtimes. Setup directs you to Microsoft if a runtime is missing. OBS mode uses NVIDIA NVENC. The existing FFmpeg fallback is available.
+
+See the accompanying source materials and third-party notices. The native corresponding-source collection remains partial, and the OBS worker / NAudio distribution boundary remains under review.
+</description>
+      <vestige:architecture>windows-x64</vestige:architecture>
+      <vestige:minimumWindowsBuild>19045</vestige:minimumWindowsBuild>
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v0.4.6/Veyfir-Setup-0.4.6-Windows-x64.exe" length="24208374" type="application/octet-stream" sparkle:os="windows" sparkle:version="0.4.6" sparkle:edSignature="il5wTxQWPB8GVnwHFhJ/lZ498q6Fok0LXwCv9VOSOW0FGatk/2vOEZOX9V9fHPo04dVkudc0NWqyP6tPrp9rCQ==" />
+    </item>
+    <item>
       <description>Veyfir 0.4.5 for Windows
 
 Choose Automatic Game, a specific game or window, or an entire display on Capture. Display capture uses global settings and keeps its replay buffer active when games launch.
