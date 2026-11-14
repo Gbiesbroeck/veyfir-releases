@@ -5,6 +5,31 @@
     <vestige:product>Veyfir.Windows</vestige:product>
     <vestige:channel>private-beta</vestige:channel>
     <item>
+      <description>Veyfir 0.5.0 for Windows x64
+
+Capture and replay
+- Improved capture diagnostics, recording-health visibility, shortcut handling and microphone controls.
+- 1440p modes are available where local capture qualification supports them. Experimental 1080p120 and 1440p120 require OBS Game Capture on compatible NVIDIA hardware. Automatic Game can use the trial when its resolved profile uses OBS Game Capture.
+- Window and Entire Display keep their supported standard frame rates. Moving an active 120 FPS preference to an incompatible mode offers 60 FPS or cancellation.
+
+Library and Quick Editor
+- Browse with clearer titles and recording details, search and filters, favorites, bulk actions and optional game folders for new recordings.
+- Library navigation is preserved when exporting. Quick Editor offers track volumes, mute and playback-only Solo. Exports use your intended mix.
+- Share from Library or Quick Editor using Discord, WhatsApp, vertical video, general MP4 or Original Quality. Copy the prepared video file, open it, locate it on disk or use the Windows share sheet where available.
+
+Compatibility
+- Windows 10 22H2 (build 19045) or later, x64. If the Microsoft Visual C++ runtimes are missing, Setup directs you to Microsoft.
+- 120 FPS delivery depends on the game, capture path and hardware. The reported mixed-monitor problem awaits verification on the affected system.
+- The website web installer and in-app updater use the existing Windows release feed.
+
+Windows development, product direction and maintenance by Astro. Publisher prod. GB.
+Third-party notices and available source materials accompany the Windows release.
+</description>
+      <vestige:architecture>windows-x64</vestige:architecture>
+      <vestige:minimumWindowsBuild>19045</vestige:minimumWindowsBuild>
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v0.5.0/Veyfir-Setup-0.5.0-Windows-x64.exe" length="24266885" type="application/octet-stream" sparkle:os="windows" sparkle:version="0.5.0" sparkle:edSignature="vKp5uhRmc5XWO2COhlPRZ6pQcVt7/nLP6Z+8sr1wdYzvFveqNbJ6RhtBWguHP+iyGOVKNuOJjLHUYRp1/6rvBA==" />
+    </item>
+    <item>
       <description>Veyfir 0.4.6 for Windows
 
 Capture groups the source, replay status and Save replay together. The existing OBS preview is beside the capture settings.
