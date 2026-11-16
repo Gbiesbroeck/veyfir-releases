@@ -5,6 +5,32 @@
     <vestige:product>Veyfir.Windows</vestige:product>
     <vestige:channel>private-beta</vestige:channel>
     <item>
+      <description>Veyfir 0.6.0 — Sessions &amp; Bookmarks
+
+New features
+- Choose Instant Replay or Full Session. Full Session has its own shortcuts and optional game-exit finalization.
+- Bookmark moments in a session. Find them in the Library and Quick Editor, edit titles or notes, or create a clip around one.
+- Recover interrupted session footage as MP4 when the Matroska data is available.
+
+Improvements
+- OBS Compatibility Hook is the default for Game Capture. Set Direct Hook in Compatibility details or choose a hook for an individual game in its capture profile.
+- Capture shows the target, active method and source readiness. If Game Capture fails, try the other hook or Window Capture for the same target. Diagnostics keeps the last failed attempt and local logs.
+- Quick Editor has clear Save Changes and Remove Bookmark actions, inline Undo and clickable bookmark markers.
+- Veyfir checks the signed Windows channel at startup. Choose when to download and install from Settings.
+- See version-specific release notes after upgrading or reopen them under About.
+
+Compatibility
+- Windows 10 22H2 (build 19045) or Windows 11, x64. Setup directs you to Microsoft if a required Visual C++ runtime is missing.
+- Experimental 120 FPS requires compatible OBS Game Capture and NVIDIA hardware. Frame delivery depends on the game and system.
+- Some games restrict Game Capture. Window Capture is available as a user-selected alternative.
+
+Windows development, product direction and maintenance by Astro. Publisher prod. GB.
+</description>
+      <vestige:architecture>windows-x64</vestige:architecture>
+      <vestige:minimumWindowsBuild>19045</vestige:minimumWindowsBuild>
+      <enclosure url="https://github.com/Gbiesbroeck/Veyfir-releases/releases/download/windows-v0.6.0/Veyfir-Setup-0.6.0-Windows-x64.exe" length="24306838" type="application/octet-stream" sparkle:os="windows" sparkle:version="0.6.0" sparkle:edSignature="mqoRO/fv/RTs9w9hm0aGlp4Li7ShOJZHZvTYqT6mhHQcdS1o96FpTGlj2dtO4bmnEU1LmAAVgxp30ioUm58cCw==" />
+    </item>
+    <item>
       <description>Veyfir 0.5.0 for Windows x64
 
 Capture and replay
